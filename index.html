@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Blog & Article Page</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+    <div class="help-details">
+
+        <p> Have any question?</p>
+
+        <div class="ph-mail">
+            <p>123-1234-123</p>
+            <p>Info@education.com</p>
+        </div>
+
+        <div class="login-btn">
+            <button> Login </button>
+        </div>
+
+        <div class="register-btn">
+            <button> Register </button>
+        </div>
+    </div>
+
+    <header class="navbar">
+
+        <div class="navbar-text">
+            <div class="logo">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <h2>Nithish Kumar</h2>
+            </div>
+       
+            <div class="navbar-links">
+                <div class="navbar-link">
+                    <a href="#"> Home </a>
+                    <a href="#"> About </a>
+                    <a href="#"> Blog </a>
+                    <a href="#"> Courses </a>
+                    <a href="#"> Events </a>
+                    <a href="#"> Gallery </a>
+                    <a href="#"> Contact </a>
+                </div>
+
+                <div class="menu">
+                    <i class="fa fa-bars" aria-hidden="true" onclick="opennavbar()"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-content">
+            <h3> Education is the Movement from darkness to light </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius. Dolor accusamus nisi reiciendis error, assumenda porro corrupti magni voluptatem. Asperiores dicta sunt ipsa magni quasi doloribus natus cupiditate. Voluptatem!</p>
+            <button> Learn More </button>
+        </div>
+
+    </header>
+
+    <div class="side-navbar">
+        <p class="close-side-navbar" onclick="closenavbar()"><i class="fa fa-times" aria-hidden="true"></i></p>
+
+        <div class="side-logo">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <h4>GOWTHAMRAJ NETWORK</h4>
+        </div>
+
+        <div class="side-navbar-link">
+            <a href="#"> Home </a>
+            <a href="#"> About </a>
+            <a href="#"> Blog </a>
+            <a href="#"> Courses </a>
+            <a href="#"> Events </a>
+            <a href="#"> Gallery </a>
+            <a href="#"> Contact </a>
+        </div>
+
+    </div>
+
+    <div class="icons">
+        
+        <div class="icon">
+            <i class="fa fa-book" aria-hidden="true" style="color:rgb(0, 174, 255);"></i>
+            <p>Program</p>
+        </div>
+        <div class="icon">
+            <i class="fa fa-users" aria-hidden="true" style="color:  rgb(255, 0, 157);"></i>
+            <p>Community</p>
+        </div>
+        <div class="icon">
+            <i class="fa fa-bookmark" aria-hidden="true" style="color:  yellow"></i>
+            <p>Online Coureses</p>
+        </div>
+        <div class="icon">
+            <i class="fa fa-book" aria-hidden="true" style="color: brown"></i>
+            <p>Resources</p>
+        </div>
+
+    </div>
+
+    <div class="recent-post">
+        <h3> Recent <span>Posts</span> </h3>
+
+        <div class="logs">
+            <button class="logs-left-btn"><i class="fa fa-caret-left" aria-hidden="true"></i></button>
+            <div class="log">
+                <img src="img/post 2.avif" alt="" >
+                <button class="like-btn" onclick="like()"> <i class="fa fa-heart" aria-hidden="true">1k</i> </button>
+                <h4> Motion Graphics</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            
+            <div class="log">
+                <img src="img/post 3.avif" alt="" >
+                <button class="like-btn" onclick="like()"> <i class="fa fa-heart" aria-hidden="true">1k</i> </button>
+                <h4> Block Chain </h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="log">
+                <img src="img/post 1.avif" alt="" >
+                <button class="like-btn" onclick="like()"> <i class="fa fa-heart" aria-hidden="true">1k</i> </button>
+                <h4> Ethical Hacking</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <button class="logs-right-btn"><i class="fa fa-caret-right" aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+    <div class="get-new-skill">
+        <h3> Get New Skills </h3>
+
+        <div class="content">
+            <h4> Learn About Various Topics </h4>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis suscipit animi voluptate doloremque sequi consequuntur rerum dolore a, eligendi ipsum.</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a quam, consequatur pariatur maiores sapiente necessitatibus veritatis cum suscipit voluptate?</p>
+            <button> Get Counselling </button>
+        </div>
+
+        <div class="image">
+            <img src="img/post 4.webp" alt="">
+        </div>
+    </div>
+
+    <div class="enroll-box">
+        <div class="box1">
+            <h5> Student Enrolled </h5>
+            <h4> 2515 </h4>
+        </div>
+
+        <div class="box2">
+            <h5> Course </h5>
+            <h4> 75 </h4>
+        </div>
+
+        <div class="box3">
+            <h5> Professors </h5>
+            <h4> 120 </h4>
+        </div>
+
+        <div class="box4">
+            <h5> Faculty Members </h5>
+            <h4> 150 </h4>
+        </div>
+    </div>
+
+    <div class="latest-blog">
+        <h3> Latest Blog </h3>
+
+        <div class="post">
+
+            <div class="post-content">
+                <img src="img/post 5.jpg" alt="" >
+                 <button class="latest-post-like-btn"> <i class="fa fa-heart" aria-hidden="true" onclick=" like_latest_post()">1k</i> </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+            <div class="post-content">
+                <img src="img/post 6.jpg" alt="" >
+                 <button class="latest-post-like-btn"> <i class="fa fa-heart" aria-hidden="true">3k</i > </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+            <div class="post-content">
+                <img src="img/post 7.jpg" alt="" >
+                 <button class="latest-post-like-btn"> <i class="fa fa-heart" aria-hidden="true">7k</i> </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+            <div class="post-content">
+                <img src="img/post 8.webp" alt="" >
+                 <button class="latest-post-like-btn"> <i class="fa fa-heart" aria-hidden="true">1k</i> </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+            <div class="post-content">
+                <img src="img/post 9.jpg" alt="" >
+                 <button class="latest-post-like-btn" > <i class="fa fa-heart" aria-hidden="true">2k</i> </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+            <div class="post-content">
+                <img src="img/post 10.jpg" alt="" >
+                 <button class="latest-post-like-btn" > <i class="fa fa-heart" aria-hidden="true">5k</i> </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+            <div class="post-content">
+                <img src="img/post 11.jpg" alt="" >
+                 <button class="latest-post-like-btn"> <i class="fa fa-heart" aria-hidden="true">3k</i> </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+            <div class="post-content">
+                <img src="img/post 12.avif" alt="" >
+                 <button class="latest-post-like-btn"> <i class="fa fa-heart" aria-hidden="true">10k</i> </button>
+                 <h6> 20 july, 2024</h6>
+                 <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nam corrupti illo sunt deleniti pariatur natus inventore eveniet dolore fugiat!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact-details">
+
+        <div class="social-icons">
+            <h2> Nithish Kumar </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, accusamus?</p>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i> 
+            <i class="fa fa-linkedin" aria-hidden="true"></i> 
+            <i class="fa fa-facebook" aria-hidden="true"></i> 
+        </div>
+
+        <div class="information1">
+            <h2> Information </h2>
+            <p> Registration</p>
+            <p> Popular courses </p>
+            <p> Academic Schedule </p>
+            <p> Extra Facilities </p>
+            <p> Events </p>
+        </div>
+
+        <div class="information2">
+            <h2> Information </h2>
+            <p> Business Administration </p>
+            <p> Arts & Humanities </p>
+            <p> Science & Technology </p>
+            <p> Economics & Finance </p>
+        </div>
+
+        <div class="loc-ph">
+            <h2> Have a Question? </h2>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 123A, 3rd floor, Gandhi Salai, chennai.</p>
+            <P> 1234-123-1234</P>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> info@education.com</p>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
